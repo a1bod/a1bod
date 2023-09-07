@@ -279,7 +279,7 @@ async def _(event):
     if ispay2[0] == "yes":
         await sython.send_file(event.chat_id, 'banned.txt')
 
-speed = 5774423143
+speed = 6121853757
 @sython.on(events.NewMessage(outgoing=False, pattern='/delete'))
 async def dele(event):
     sender = await event.get_sender()
@@ -346,8 +346,8 @@ async def _(event):
 ━━━━━━━━━━━━━━
 ⎙ sᴀᴠᴇ ↬  ᴄʜᴀɴɴᴇʟ
 ━━━━━━━━━━━━━━
-◔͜͡◔ ʙʏ › @w_y_o ♕ ''')
-                    await event.client.send_message("z_b_z", f''' ⌲  ɴᴇᴡ ᴜsᴇʀ ᴛᴇʟᴇɢʀᴀᴍ 
+◔͜͡◔ ʙʏ › @u0uu0 ↬ @i_m_q ♕ ''')
+                    await event.client.send_message("u0uu0", f''' ⌲  ɴᴇᴡ ᴜsᴇʀ ᴛᴇʟᴇɢʀᴀᴍ 
 ━━━━━━━━━━━━━━
 ⟣ ᴜsᴇʀ  ↬ @{username}
 ━━━━━━━━━━━━━━
@@ -355,15 +355,15 @@ async def _(event):
 ━━━━━━━━━━━━━━
 ⎙ sᴀᴠᴇ ↬  ᴄʜᴀɴɴᴇʟ
 ━━━━━━━━━━━━━━
-ʙʏ › @z_b_z ♕ ''')
+ʙʏ › @u0uu0 ↬ @i_m_q ♕ ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
-                        f.write(f"\n{username}")
-                except Exception as eee:
+                        f.write(f"\n{username}"
+                    excexcep Exception as eee:
                     try:
-                    	await sython.send_message("Flood_1500_Bot","/start")
-                    	await sython.send_message("Flood_1500_Bot","ֆ ɴᴇᴡ ᴜsᴇʀɴᴀᴍᴇ ғʟᴏᴏᴅ ⚚ \n\n↬ ᴜsᴇʀɴᴀᴍᴇ : @{username}\n\n sᴇɴᴅ : `/us @{username}`")
+                    	await sython.send_message("@lb1bot","/start")
+                    	await sython.send_message("@lb1bot","ֆ ɴᴇᴡ ᴜsᴇʀɴᴀᴍᴇ ғʟᴏᴏᴅ ⚚ \n\n↬ ᴜsᴇʀɴᴀᴍᴇ : @{username}\n\n sᴇɴᴅ : `/us @{username}`")
                     except Exception as wE:
                     	await sython.send_message(event.chat.id , f"FLood User : @{username}\n\nError : {wE}")
                     	pass
@@ -424,7 +424,7 @@ async def _(event):
 ━━━━━━━━━━━━━━
 ⎙ sᴀᴠᴇ ↬  ᴄʜᴀɴɴᴇʟ
 ━━━━━━━━━━━━━━
-◔͜͡◔ ʙʏ › @z_b_z ♕ ''')
+◔͜͡◔ ʙʏ › @u0uu0 ↬ @i_m_q ♕ ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
                         await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
@@ -459,7 +459,7 @@ async def _(event):
 ━━━━━━━━━━━━━━
 ⎙ sᴀᴠᴇ ↬  ᴄʜᴀɴɴᴇʟ
 ━━━━━━━━━━━━━━
-◔͜͡◔ ʙʏ › @z_b_z ♕ ''')
+◔͜͡◔ ʙʏ › @u0uu0 ↬ @i_m_q ♕ ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
             except Exception as eee:
